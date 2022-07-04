@@ -2,6 +2,10 @@ echo "=== simple main ==="
 python main.py
 echo "===             ==="
 echo
+echo "=== no __main__ ==="
+python main_no_main.py
+echo "===             ==="
+echo
 echo "=== simple other_module ==="
 python ./other_module
 echo "===                     ==="
