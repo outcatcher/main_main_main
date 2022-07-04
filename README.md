@@ -9,7 +9,7 @@ __main__ после
 ===             ===
 
 === no __main__ ===
-меня всё ещё зовут __main__
+Меня всё ещё зовут __main__
 ===             ===
 
 === simple other_module ===
@@ -25,6 +25,7 @@ __main__ после
 ===  module as module   ===
 А я other_module (__init__.py)
 А тут - немного по-другому: __main__ (__main__.py)
+Тут была ошибка: No module named 'main1'
 Функция в: other_module.main1
 ===                     ===
 (venv) 
